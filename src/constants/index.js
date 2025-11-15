@@ -1,8 +1,8 @@
-import projects1 from "../assets/projects1.webp";
-import projects2 from "../assets/projects2.webp";
-import projects3 from "../assets/projects3.webp";
-import projects4 from "../assets/projects4.webp";
-import projects5 from "../assets/projects5.webp";
+import projects1 from "../assets/project-1.png";
+import projects2 from "../assets/project-2.png";
+import projects3 from "../assets/project-3.png";
+import projects4 from "../assets/project-4.png";
+import projects5 from "../assets/project-5.png";
 import projects6 from "../assets/projects6.webp";
 
 import person1 from "../assets/person1.webp";
@@ -27,52 +27,45 @@ export const HERO_CONTENT = {
   introduction:
     "I'm Harshal, an aspiring full-stack developer dedicated to building immersive and intuitive web experiences.",
   description:
-    "I’m currently helping businesses bring their visions to life through interactive digital solutions.",
+    "I’m currently learning mobile app development using react native & expo. Highly motivated, quick to learn new technologies, and committed to continuous growth.",
   resumeLinkText: "Download Resume",
-  resumeLink: "/resume.pdf",
+  resumeLink: "/resume-dev.pdf",
 };
 
-export const MARQUEE_TEXT =
-  ["ReactJs, NodeJs, MongoDb, Tailwind, Javascript, Express"]
+export const MARQUEE_TEXT = [
+  "ReactJs, NodeJs, MongoDb, Tailwind, Javascript, Express, React Native",
+];
 
-  
 export const PROJECTS = [
   {
-    name: "Streamerzz",
-    description: "Live stream management tool for content creators",
+    name: "Expense Tracker Mobile App",
+    description: "",
     image: projects1,
-    link: "https://github.com/your-github/streamerzz",
+    link: "https://github.com/harshal07-dev/Expense-tracker-App.git",
   },
   {
-    name: "NutriTrack",
-    description: "Track your meals and calories with smart AI suggestions",
+    name: "Interior designs Landing page",
+    description: "",
     image: projects2,
-    link: "https://github.com/your-github/nutritrack",
+    link: "https://interior-designs-landing-page.vercel.app",
   },
   {
-    name: "HairRevive",
-    description: "A platform for hair regrowth solutions powered by science",
+    name: "Contact Manager API",
+    description: "",
     image: projects3,
-    link: "https://github.com/your-github/hairrevive",
+    link: "https://github.com/harshal07-dev/contactManager.git",
   },
   {
-    name: "DevDeck",
-    description:
-      "Interactive dashboard for developers to track coding activity",
+    name: "Bitcoin Saas Landing Page",
+    description: "",
     image: projects4,
-    link: "https://github.com/your-github/devdeck",
+    link: "https://harshal07-dev.github.io/React-Landing-page/",
   },
   {
-    name: "FitConnect",
-    description: "Fitness social network to connect athletes and trainers",
+    name: "To-do Mobile App",
+    description: "",
     image: projects5,
-    link: "https://github.com/your-github/fitconnect",
-  },
-  {
-    name: "WellNest",
-    description: "A wellness app for mental and physical health improvement",
-    image: projects6,
-    link: "https://github.com/your-github/wellnest",
+    link: "https://github.com/harshal07-dev/Basic-Todo-App.git",
   },
 ];
 
